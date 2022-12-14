@@ -1,10 +1,13 @@
+// Native Imports
 import React, { useState } from "react";
 
+// Custom Components Imports
 import Card from "../UI/Card";
 import Button from "../UI/Button";
 import ErrorModal from "./ErrorModal";
 import Wrapper from "../Helpers/Wrapper";
 
+// Styling Imports
 import classes from "./AddUser.module.css";
 
 const AddUser = (props) => {
